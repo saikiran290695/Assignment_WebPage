@@ -39,11 +39,13 @@ table tr td:nth-child(2){
     height: 400px;
     float:left;
     width:240px;
-    margin-left: 50px;
+    margin-left: 0px;
 }
 .centralbody{
     border: 5px solid yellow;
     padding-top: 100px;
+    background-color: whitesmoke;
+    
 }
 .quad1{
     border: 2px solid black;
@@ -53,8 +55,73 @@ table tr td:nth-child(2){
     margin-left: 150px;
     background-color: burlywood;
     border-top-left-radius: 100%;
-   
+}
+.quad1beforehover h2{
+    margin-left: 75px;
+    margin-top: 50%;
+}
+.quad2beforehover h2{
+    margin-left: 75px;
+    margin-top: 50%;
+}
+.quad3beforehover h2{
+    margin-left: 75px;
+    margin-top: 40%;
+}
+.quad4beforehover h2{
+    margin-left: 50px;
+    margin-top: 40%;
+}
+.quad1afterhover{
+    visibility: hidden;
+}
+.quad2afterhover{
+    visibility: hidden;
+}
+.quad3afterhover{
+    visibility: hidden;
+}
+.quad4afterhover{
+    visibility: hidden;
+}
+.quad1:hover{
+    border: 2px solid black;
+    height : 275px;
+    width: 275px;
+    float:left;
+    margin-left: 150px;
+    background-color: violet;
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 0%;       
+}
+.quad1:hover .quad1afterhover{
+    visibility: visible;
+    margin-top: -50%;
+}
+.quad2:hover .quad2afterhover{
+    visibility: visible;
+    margin-top: -50%;
+    margin-left: 50%;
+}
+.quad3:hover .quad3afterhover{
+    visibility: visible;
 
+}
+.quad4:hover .quad4afterhover{
+    visibility: visible;
+    margin-left: 50%;
+}
+.quad1:hover .quad1beforehover{
+    visibility: hidden;
+}
+.quad2:hover .quad2beforehover{
+    visibility: hidden;
+}
+.quad3:hover .quad3beforehover{
+    visibility: hidden;
+}
+.quad4:hover .quad4beforehover{
+    visibility: hidden;
 }
 .quad2{
     border: 2px solid black;
@@ -62,8 +129,16 @@ table tr td:nth-child(2){
     width: 275px;
     margin-left: 450px;
     background-color: cadetblue;
-    border-top-right-radius: 100%;
-    
+    border-top-right-radius: 100%;  
+}
+.quad2:hover{
+    border: 2px solid black;
+    height : 275px;
+    width: 275px;
+    margin-left: 450px;
+    background-color: cadetblue;
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 0%;
 }
 .quad3{
   
@@ -76,6 +151,18 @@ table tr td:nth-child(2){
     background-color: chartreuse;
     border-bottom-left-radius: 100%;
 }
+.quad3:hover{
+  
+    border: 2px solid black;
+    height : 275px;
+    width: 275px;
+    float:left;
+    margin-top: 20px;
+    margin-left: 150px;
+    background-color: chartreuse;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 0%;
+}
 .quad4{
     border: 2px solid black;
     height : 275px;
@@ -84,11 +171,22 @@ table tr td:nth-child(2){
     margin-left: 450px;
     background-color: chocolate;
     border-bottom-right-radius: 100%;
+    
+}
+.quad4:hover{
+    border: 2px solid black;
+    height : 275px;
+    width: 275px;
+    margin-top: 20px;
+    margin-left: 450px;
+    background-color: chocolate;
+    border-bottom-right-radius: 0%;
+    border-top-left-radius: 100%;
 }
 .graph{
     border: 5px solid gray;
-
 }
+
 .CentralQuad{
     border: 3px solid black;
     margin-top: -425px;
@@ -139,3 +237,8 @@ table tr td:nth-child(2){
     margin-left: 20px;
     text-align: center;
 }
+.content1{
+    border: 1px solid black;
+    width:1150px;
+    margin-left: 55px;
+} 
