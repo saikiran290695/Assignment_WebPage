@@ -1,0 +1,141 @@
+.Title-bar {
+    width : 1250px;
+    margin: 0px auto;  
+    position: fixed;
+    background-color: chartreuse;
+    margin-top: -10px;
+    z-index: 1;
+}
+table{
+    width:100%;
+}
+table tr td{
+    border: 1px solid black;
+    width:20%;
+}
+table tr td:nth-child(3){
+    text-align: right;
+    font-size: 25px;
+}
+table tr td:nth-child(2){
+    text-align: center;
+    font-size: 25px;
+    width : 60%;
+}
+#logo{
+    width:70px;
+    height:70px;
+}
+
+.centralcontent
+{
+    border: 7px solid blue;   
+    height: 700px;
+    margin-left: 300px;
+    width: 900px;
+}
+.author{
+    border: 1px solid red;
+    height: 400px;
+    float:left;
+    width:240px;
+    margin-left: 50px;
+}
+.centralbody{
+    border: 5px solid yellow;
+    padding-top: 100px;
+}
+.quad1{
+    border: 2px solid black;
+    height : 275px;
+    width: 275px;
+    float:left;
+    margin-left: 150px;
+    background-color: burlywood;
+    border-top-left-radius: 100%;
+   
+
+}
+.quad2{
+    border: 2px solid black;
+    height : 275px;
+    width: 275px;
+    margin-left: 450px;
+    background-color: cadetblue;
+    border-top-right-radius: 100%;
+    
+}
+.quad3{
+  
+    border: 2px solid black;
+    height : 275px;
+    width: 275px;
+    float:left;
+    margin-top: 20px;
+    margin-left: 150px;
+    background-color: chartreuse;
+    border-bottom-left-radius: 100%;
+}
+.quad4{
+    border: 2px solid black;
+    height : 275px;
+    width: 275px;
+    margin-top: 20px;
+    margin-left: 450px;
+    background-color: chocolate;
+    border-bottom-right-radius: 100%;
+}
+.graph{
+    border: 5px solid gray;
+
+}
+.CentralQuad{
+    border: 3px solid black;
+    margin-top: -425px;
+    position: relative;
+    height: 250px;
+    width: 250px;
+    margin-left: 310px;
+    background-color: white;
+    border-radius: 100%;
+    
+}
+.part2{
+    border: 2px solid red;
+    margin-top: 10px;
+}
+.part2Header{
+    border: 3px solid black;
+    margin-left: 50px;
+    width:1150px;
+    height: 75px;
+}
+.subpart1{
+    border: 2px solid blue;
+    margin-top: 10px;
+    width: 550px;
+    float: left;
+    margin-left: 50px;
+    height: 300px;
+}
+.subpart2{
+    border: 2px solid green;
+    margin-top: 10px;
+    width: 550px;
+    margin-left: 650px;
+    height: 300px;
+}
+.footer{
+    border: 3px solid black;
+    height:300px;
+    margin-top: 25px;
+}
+.author img{
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+}
+.author h2, .author p {
+    margin-left: 20px;
+    text-align: center;
+}
