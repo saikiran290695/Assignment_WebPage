@@ -1,11 +1,14 @@
 .Title-bar {
-    width : 1250px;
-    margin: 0px auto;  
+   
+    border-radius: 25px;
+    width : 99%;  
     position: fixed;
     background-color: rgb(39, 117, 39);
-    margin-top: -10px;
+    margin: 0px;
     z-index: 1;
+    margin-top: -10px;
 }
+
 table{
     width:100%;
 }
@@ -14,13 +17,20 @@ table tr td{
     width:20%;
 }
 table tr td:nth-child(3){
-    text-align: right;
-    font-size: 25px;
+    text-align: center;
+    font-size: 20px;  
 }
 table tr td:nth-child(2){
     text-align: center;
     font-size: 25px;
     width : 60%;
+}
+table tr td:nth-child(1){
+    text-align: center;   
+}
+a {
+    text-decoration: none;
+    text-decoration-color: black
 }
 #logo{
     width:70px;
@@ -30,24 +40,31 @@ table tr td:nth-child(2){
 .centralcontent
 {
     border: 7px solid blue;   
-    height: 700px;
+    height: 1300px;
     margin-left: 300px;
-    width: 900px;
+    width: 800px;
+
 }
 .author{
     border: 1px solid red;
     height: 700px;
     float:left;
-    width:240px;
+    width:270px;
     margin-left: 0px;
     background-image: url(../IMG/background-bark.png);
     border-radius: 20px;
 }
+.author h2, .author p{
+    margin-right: 25px;
+}
+
 .centralbody{
     border: 5px solid yellow;
     padding-top: 100px;
     background-color: whitesmoke;
-    
+    width: 1200px;
+    margin-left: 25px;
+    background-size:50px; 
 }
 .quad1{
     border: 2px solid black;
@@ -55,7 +72,8 @@ table tr td:nth-child(2){
     width: 275px;
     float:left;
     margin-left: 150px;
-    background-color: rgb(28, 134, 13);
+    background-image: url(../IMG/background-bark.png);
+    color: white;
     border-top-left-radius: 100%;
 }
 .quad1beforehover h2{
@@ -74,27 +92,19 @@ table tr td:nth-child(2){
     margin-left: 50px;
     margin-top: 40%;
 }
-.quad1afterhover{
-    visibility: hidden;
-}
-.quad2afterhover{
-    visibility: hidden;
-}
-.quad3afterhover{
-    visibility: hidden;
-}
-.quad4afterhover{
+.quad1afterhover,  .quad2afterhover, .quad3afterhover, .quad4afterhover{
     visibility: hidden;
 }
 .quad1:hover{
     border: 2px solid black;
     height : 275px;
-    width: 275px;
+    width: 375px;
     float:left;
-    margin-left: 150px;
+    margin-left: 50px;
     background-color: rgb(27, 110, 16);
-    border-bottom-right-radius: 100%;
-    border-top-left-radius: 0%;       
+    border-bottom-right-radius: 275px;
+    border-top-left-radius: 0%;     
+    background-image: url(../IMG/Leaftexture.png);  
 }
 .quad1:hover .quad1afterhover{
     visibility: visible;
@@ -113,34 +123,28 @@ table tr td:nth-child(2){
     visibility: visible;
     margin-left: 50%;
 }
-.quad1:hover .quad1beforehover{
+.quad1:hover .quad1beforehover, .quad2:hover .quad2beforehover, .quad3:hover .quad3beforehover, .quad4:hover .quad4beforehover{
     visibility: hidden;
 }
-.quad2:hover .quad2beforehover{
-    visibility: hidden;
-}
-.quad3:hover .quad3beforehover{
-    visibility: hidden;
-}
-.quad4:hover .quad4beforehover{
-    visibility: hidden;
-}
+
 .quad2{
     border: 2px solid black;
     height : 275px;
     width: 275px;
     margin-left: 450px;
-    background-color: rgb(155, 99, 14);
+    background-image: url(../IMG/background-bark.png);
+    color: white;
     border-top-right-radius: 100%;  
 }
 .quad2:hover{
     border: 2px solid black;
     height : 275px;
-    width: 275px;
+    width: 375px;
     margin-left: 450px;
     background-color:  rgb(131, 84, 13);
-    border-bottom-left-radius: 100%;
+    border-bottom-left-radius: 275px;
     border-top-right-radius: 0%;
+    background-image: url(../IMG/Leaftexture.png);
 }
 .quad3{
   
@@ -150,20 +154,21 @@ table tr td:nth-child(2){
     float:left;
     margin-top: 20px;
     margin-left: 150px;
-    background-color: rgb(25, 14, 189);
+    background-image: url(../IMG/background-bark.png);
+    color: white;
     border-bottom-left-radius: 100%;
 }
 .quad3:hover{
   
     border: 2px solid black;
     height : 275px;
-    width: 275px;
+    width: 375px;
     float:left;
-
+    background-image: url(../IMG/Leaftexture.png);
     margin-top: 20px;
-    margin-left: 150px;
+    margin-left: 50px;
     background-color:  rgb(13, 3, 153);
-    border-top-right-radius: 100%;
+    border-top-right-radius: 275px;
     border-bottom-left-radius: 0%;
 }
 .quad4{
@@ -172,72 +177,109 @@ table tr td:nth-child(2){
     width: 275px;
     margin-top: 20px;
     margin-left: 450px;
-    background-color: chocolate;
+    background-image: url(../IMG/background-bark.png);
+    color: white;
     border-bottom-right-radius: 100%;
     
 }
 .quad4:hover{
     border: 2px solid black;
     height : 275px;
-    width: 275px;
+    width: 375px;
     margin-top: 20px;
     margin-left: 450px;
     background-color: chocolate;
     border-bottom-right-radius: 0%;
-    border-top-left-radius: 100%;
+    border-top-left-radius: 275px;
+    background-image: url(../IMG/Leaftexture.png);
 }
 .graph{
     border: 5px solid gray;
+    margin-left: -225px;
+    height: 600px;
 }
-
+.imageContent img{
+    height: 500px;
+    width: 700px;
+    margin-left: 50px;
+}
+.imageContent p, .imageContent h2{
+    margin-left: 50px;
+}
 .CentralQuad{
-    border: 3px solid black;
+    
     margin-top: -425px;
-    position: relative;
+    position: absolute;
     height: 250px;
     width: 250px;
     margin-left: 310px;
     background-color: white;
     border-radius: 100%;
+    border : 1px solid brown;
     
+}
+.CentralQuad h1{
+
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
 }
 .part2{
     border: 2px solid red;
-    margin-top: 10px;
+    margin-top: 210px;
+    height: 500px;
+    text-align: center;
 }
 .part2Header{
     border: 3px solid black;
     margin-left: 50px;
-    width:1150px;
+    margin-right: 50px;
+    width:inherit;
     height: 75px;
+    background-image: url(../IMG/background-bark.png);
+    border-radius: 10px;
+    margin-top: 50px;
+    color: white;   
 }
 .subpart1{
+    border-radius: 10px;
     border: 2px solid blue;
     margin-top: 10px;
-    width: 550px;
+    width: 500px;
     float: left;
     margin-left: 50px;
-    height: 300px;
+    height: 100px;
+    background-image: url(../IMG/leafgrad.png);
+}
+.subpart1:hover{
+    height: 350px;
+    background-color: rgb(19, 97, 71);
 }
 .subpart2{
+    border-radius: 10px;
     border: 2px solid green;
     margin-top: 10px;
-    width: 550px;
-    margin-left: 650px;
-    height: 300px;
+    width: 540px;
+    margin-left: 600px;
+    height: 100px;
+}
+.subpart2:hover{
+    height:350px;
+    background-color: rgb(14, 80, 58);
 }
 .footer{
     border: 3px solid black;
     height:300px;
     margin-top: 25px;
-    background-color: rgba(0, 0, 0, 0.747)
+    background-color: black;
+    width: 100%;
 }
 .author img{
     border-radius : 10%;
     margin-top: 75px;
     height: 200px;
     width: 200px;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 .author h2, .author p {
     margin-left: 20px;
@@ -247,5 +289,13 @@ table tr td:nth-child(2){
 .content1{
     border: 1px solid black;
     width:1150px;
+    
     margin-left: 55px;
 } 
+.rotateimg180 {
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
