@@ -2,7 +2,7 @@
     width : 1250px;
     margin: 0px auto;  
     position: fixed;
-    background-color: chartreuse;
+    background-color: rgb(39, 117, 39);
     margin-top: -10px;
     z-index: 1;
 }
@@ -36,10 +36,12 @@ table tr td:nth-child(2){
 }
 .author{
     border: 1px solid red;
-    height: 400px;
+    height: 700px;
     float:left;
     width:240px;
     margin-left: 0px;
+    background-image: url(../IMG/background-bark.png);
+    border-radius: 20px;
 }
 .centralbody{
     border: 5px solid yellow;
@@ -53,7 +55,7 @@ table tr td:nth-child(2){
     width: 275px;
     float:left;
     margin-left: 150px;
-    background-color: burlywood;
+    background-color: rgb(28, 134, 13);
     border-top-left-radius: 100%;
 }
 .quad1beforehover h2{
@@ -90,7 +92,7 @@ table tr td:nth-child(2){
     width: 275px;
     float:left;
     margin-left: 150px;
-    background-color: violet;
+    background-color: rgb(27, 110, 16);
     border-bottom-right-radius: 100%;
     border-top-left-radius: 0%;       
 }
@@ -128,7 +130,7 @@ table tr td:nth-child(2){
     height : 275px;
     width: 275px;
     margin-left: 450px;
-    background-color: cadetblue;
+    background-color: rgb(155, 99, 14);
     border-top-right-radius: 100%;  
 }
 .quad2:hover{
@@ -136,7 +138,7 @@ table tr td:nth-child(2){
     height : 275px;
     width: 275px;
     margin-left: 450px;
-    background-color: cadetblue;
+    background-color:  rgb(131, 84, 13);
     border-bottom-left-radius: 100%;
     border-top-right-radius: 0%;
 }
@@ -148,7 +150,7 @@ table tr td:nth-child(2){
     float:left;
     margin-top: 20px;
     margin-left: 150px;
-    background-color: chartreuse;
+    background-color: rgb(25, 14, 189);
     border-bottom-left-radius: 100%;
 }
 .quad3:hover{
@@ -157,9 +159,10 @@ table tr td:nth-child(2){
     height : 275px;
     width: 275px;
     float:left;
+
     margin-top: 20px;
     margin-left: 150px;
-    background-color: chartreuse;
+    background-color:  rgb(13, 3, 153);
     border-top-right-radius: 100%;
     border-bottom-left-radius: 0%;
 }
@@ -227,8 +230,11 @@ table tr td:nth-child(2){
     border: 3px solid black;
     height:300px;
     margin-top: 25px;
+    background-color: rgba(0, 0, 0, 0.747)
 }
 .author img{
+    border-radius : 10%;
+    margin-top: 75px;
     height: 200px;
     width: 200px;
     margin-left: 20px;
@@ -236,6 +242,7 @@ table tr td:nth-child(2){
 .author h2, .author p {
     margin-left: 20px;
     text-align: center;
+    color: white;
 }
 .content1{
     border: 1px solid black;
